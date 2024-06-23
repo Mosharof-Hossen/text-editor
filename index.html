@@ -13,14 +13,14 @@
 <body>
 
     <main class="p-10">
-        <section class="w-4/5 mx-auto h-96 bg-blue-400 rounded">
+        <section class="w-4/5 mx-auto bg-blue-400 rounded pb-5">
             <h1 class="text-center text-3xl font-bold p-2">My Text Editor</h1>
-            <div class="w-4/5 mx-auto border-2 border-black h-80 bg-blue-300 p-3">
-                <div class="flex justify-between">
-                    <div class="space-x-3">
-                        <button id="bold" class="font-bold">B</button>
-                        <button id="italic" class="font-semibold italic">i</button>
-                        <button id="underline" class="font-semibold underline">U</button>
+            <div class="w-4/5 mx-auto   border-2 border-black h-full bg-blue-300 p-3">
+                <div class="flex justify-between flex-col md:flex-row text-center">
+                    <div class="space-x-1">
+                        <button id="bold" class="font-bold  px-2">B</button>
+                        <button id="italic" class="font-semibold italic px-2">i</button>
+                        <button id="underline" class="font-semibold underline px-2">U</button>
                     </div>
                     <div class="space-x-2">
                         <button><i class="fa-solid fa-align-left"></i></button>
@@ -35,8 +35,8 @@
                     </div>
                 </div>
                 <hr class="border-black border-2 my-2">
-                <div class="bg-white h-64 rounded-sm">
-                    <textarea name="" id="" class="w-full h-full p-1"></textarea>
+                <div class="bg-white  rounded-sm">
+                    <textarea name="" id="textarea" class="w-full h-80 p-1 "></textarea>
                 </div>
             </div>
         </section>
