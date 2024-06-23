@@ -16,7 +16,7 @@ function setAttributeForInputCustom(id) {
     const listItem = textArea.classList.value.split(" ");
 
     textArea.classList.replace(String(listItem[0]), `text-[${elementValue}px]`);
-    console.log(textArea);
+   
 }
 
 document.getElementById('bold').addEventListener('click', () => {
@@ -59,7 +59,6 @@ function setAttributeForColorCustom(id) {
     const listItem = textArea.classList.value.split(" ");
 
     textArea.classList.replace(String(listItem[1]), `text-[${elementValue}]`);
-    console.log(textArea);
 }
 
 document.getElementById('color-box').addEventListener('input', () => {
